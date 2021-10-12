@@ -1,6 +1,6 @@
 <?php
 
-$conn=mysqli_connect('localhost', 'root', '1111');     //MySQL 접속 및 설정 저장
+$conn=mysqli_connect('localhost', 'root', '1111');     //MySQL 접속 및 설정 저장2
 mysqli_select_db($conn, "php_exam");            //DB 접속
 
 $sql="select * from php_tbl";                         //test 테이블의 레코드를 모두 뽑아오기
